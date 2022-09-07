@@ -68,6 +68,7 @@ document.getElementById('button').addEventListener("click", () => {
         }
     }
     
+    document.getElementById("jsondata0").innerHTML = "<span style='font-size:24px;'><b>---- CLICK ON SUBMIT AGAIN</b></span>";  
     let shipmentArr=[];
     let addedNames=[];
     let found = false;
