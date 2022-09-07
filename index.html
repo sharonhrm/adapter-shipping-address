@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+        crossorigin="anonymous">
+    <title>Get Pricessss</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.16.2/xlsx.full.min.js"></script>
+</head>
+
+<body>
+    <div class="conatiner mt-5">
+        <div class="row">
+            <div class="col-md-3"></div>
+            <div class="col-md-3">
+                Adapter:
+                <input class="form-control" type="file" id="inputPrice" accept=".xls,.xlsx"  >
+            </div>
+            <div class="col-md-3">
+                Fedex:
+                <input class="form-control" type="file" id="input" accept=".xls,.xlsx"  >
+            </div>
+            <div class="col-md-2">
+                <button class="btn btn-primary" id="button">Convert</button>
+            </div>
+            <div class="col-md-12">
+                
+            </div>
+        </div>
+    </div>
+    <div class="conatiner mt-3"><div class="row"><div class="col-md-3"></div><div>Please make sure both files have these exact headers for each sheet: LineItemName, Price</div></div></div>
+    <div class="conatiner mt-3"><div class="row"><div class="col-md-3"></div><div>Please click Convert twice because I don't know why (yet) I'm not working if only click once.</div></div></div>
+    <div class="conatiner mt-3"><div class="row"><div class="col-md-3"></div><div>After clicking convert the second time, please give me some time to run.</div></div></div>
+    <div class="conatiner mt-5"><div class="row"><div class="col-md-3"></div><div>-----------------------------------------------------------------------------</div></div></div>
+    <div class="conatiner mt-3"><div class="row"><div class="col-md-3"></div><div><pre id="jsondata000"></pre></div></div></div>
+    <div class="conatiner mt-3"><div class="row"><div class="col-md-3"></div><div><pre id="jsondata00"></pre></div></div></div>
+    <div class="conatiner mt-3"><div class="row"><div class="col-md-3"></div><div><pre id="jsondata0"></pre></div></div></div>
+    <div class="conatiner mt-3"><div class="row"><div class="col-md-3"></div><div><pre id="jsondata1"></pre></div></div></div>
+    <div class="conatiner mt-3"><div class="row"><div class="col-md-3"></div><div><pre id="jsondata2"></pre></div></div></div>
+    <div class="conatiner mt-3"><div class="row"><div class="col-md-3"></div><div><pre id="jsondata3"></pre></div></div></div>
+    <div class="conatiner mt-3"><div class="row"><div class="col-md-3"></div><div><pre id="jsondata4"></pre></div></div></div>
+    <div class="conatiner mt-3"><div class="row"><div class="col-md-3"></div><div><pre id="jsondata5"></pre></div></div></div>
+</body>
+<script src="excel.js"></script>
+
+</html>
